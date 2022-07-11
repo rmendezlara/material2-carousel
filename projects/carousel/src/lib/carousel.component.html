@@ -32,7 +32,8 @@
     *ngIf="!hideArrows"
     mat-icon-button
     type="button"
-    tabindex="-1"
+    tabindex="0"
+    aria-label="Previous"
     [color]="color"
     [disabled]="!loop && currentIndex == 0"
     (click)="previous()"
@@ -42,14 +43,15 @@
       [svgIcon]="svgIconOverrides.arrowBack"
     ></mat-icon>
     <ng-template #defaultArrowBack>
-      <mat-icon>arrow_back</mat-icon>
+      <mat-icon>keyboard_arrow_left</mat-icon>
     </ng-template>
   </button>
   <button
     *ngIf="!hideArrows"
     mat-icon-button
     type="button"
-    tabindex="-1"
+    aria-label="Next"
+    tabindex="0"
     [color]="color"
     [disabled]="!loop && currentIndex == slidesList.length - 1"
     (click)="next()"
@@ -59,20 +61,20 @@
       [svgIcon]="svgIconOverrides.arrowForward"
     ></mat-icon>
     <ng-template #defaultArrowForward>
-      <mat-icon>arrow_forward</mat-icon>
+      <mat-icon>keyboard_arrow_right</mat-icon>
     </ng-template>
   </button>
 
   <div
     *ngIf="!hideIndicators"
     class="carousel-indicators"
-    tabindex="-1"
+    tabindex="0"
     [style.flex-direction]="orientation === 'rtl' ? 'row-reverse' : 'row'"
   >
     <button
       *ngFor="let slide of slidesList; let i = index"
       type="button"
-      tabindex="-1"
+      tabindex="0"
       mat-mini-fab
       [color]="color"
       [disabled]="i == currentIndex"

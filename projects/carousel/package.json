@@ -1,10 +1,10 @@
 {
-  "name": "@ngbmodule/material-carousel",
+  "name": "material-carousel-13",
   "description": "Carousel component for Angular using Material Design.",
-  "version": "0.7.1",
+  "version": "0.7.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gabrielbusarello/material2-carousel.git"
+    "url": "https://github.com/rmendezlara/material2-carousel.git"
   },
   "author": "Gabriel Busarello <gabriel20053@gmail.com>",
   "license": "MIT",

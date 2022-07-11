@@ -1,6 +1,6 @@
 {
-  "name": "material2-carousel",
-  "version": "0.0.0",
+  "name": "material2-carousel-13",
+  "version": "0.7.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "ghpages": "ng build demo --prod --output-path docs --base-href \"https://gabrielbusarello.github.io/material2-carousel/\" && cp docs/index.html docs/404.html"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~10.0.2",
     "@angular/cdk": "~10.0.1",
@@ -55,5 +55,25 @@
     "tslint": "~6.1.2",
     "typescript": "~3.9.6",
     "typescript-tslint-plugin": "^0.5.5"
-  }
+  },
+  "description": "[![Build Status](https://travis-ci.org/gabrielbusarello/material2-carousel.svg?branch=master)](https://travis-ci.org/gabrielbusarello/material2-carousel)\r [![npm version](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel.svg)](https://badge.fury.io/js/%40ngbmodule%2Fmaterial-carousel)\r [![Live demo](https://img.shields.io/badge/demo-blue.svg)](https://gabrielbusarello.github.io/material2-carousel/)",
+  "main": "carousel.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmendezlara/material2-carousel.git"
+  },
+  "keywords": [
+    "carousel",
+    "angular",
+    "material"
+  ],
+  "author": "Gabriel Busarello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmendezlara/material2-carousel/issues"
+  },
+  "homepage": "https://github.com/rmendezlara/material2-carousel#readme"
 }

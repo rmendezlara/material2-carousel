@@ -14,7 +14,7 @@ import {
 })
 export class AppComponent {
   private static readonly INSTALL_TEXT =
-    'npm install @ngbmodule/material-carousel';
+    'npm install @ngbmodule/material-carousel-13';
 
   public slidesList = new Array<never>(5);
   public showContent = false;
